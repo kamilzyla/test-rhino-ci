@@ -1,11 +1,11 @@
-name: Rhino Test
+name: Rhino Test Old
 on: push
 permissions:
   contents: read
 jobs:
   main:
     name: Run linters and tests
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
     steps:

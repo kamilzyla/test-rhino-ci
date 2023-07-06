@@ -1,4 +1,4 @@
-name: Rhino Test
+name: Rhino Test New
 on: push
 permissions:
   contents: read
